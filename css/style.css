@@ -1,0 +1,483 @@
+/* Fonts start */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans:400,700&display=swap');
+
+/* 
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+*/
+
+/* Fonts end */
+
+/* basic setup start */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mid {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 36px;
+    color: #204f87;
+}
+
+h3 {}
+
+h4 {}
+
+p {
+    font-size: 14px;
+    color: #b0b0b1;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* basic setup end */
+
+/* welcome setup start */
+
+.welcome {}
+
+header {
+    background: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 45px 0;
+}
+
+.logo {
+    flex-basis: 20%;
+}
+
+.logo img {}
+
+nav {}
+
+.menu {
+    flex-basis: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul {}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    font-size: 12px;
+    color: #204f87;
+    text-transform: uppercase;
+    padding-left: 27px;
+    font-weight: 600;
+}
+
+.welcome-txt {
+    background: url("img/hbg.jpg") no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.welcome-txt h1 {
+    font-size: 82px;
+    width: 77%;
+    margin: 0 auto;
+    color: #fff;
+    padding-top: 160px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* welcome setup start */
+
+/* who-we-are setup start */
+.who {
+    padding: 120px 0 200px 0;
+}
+
+.who-total {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.who-txt {
+    flex-basis: 50%;
+    padding-top: 40px;
+}
+
+.who-txt hr {
+    width: 60px;
+    border-bottom: 3px solid #F2622C;
+    border-top: none;
+}
+
+.who-txt h2 {
+    padding-top: 30px;
+}
+
+.who-txt p {
+    padding-top: 40px;
+    line-height: 20px;
+}
+
+.who-img {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.who-img img {
+    width: 390px;
+}
+
+/* who-we-are setup start */
+
+/* what-we-do setup start */
+.do {
+    background: #F7F8F8;
+    background-image: url(img/wwd-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 80px 0 120px;
+}
+
+.do hr {
+    width: 5%;
+    margin: auto;
+    border-top: none;
+    border-bottom: 3px solid #F2622C;
+}
+
+.do h2 {
+    color: #2b2f85;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.do-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.do-img-prt {
+    flex-basis: 30%;
+    display: flex;
+    margin-right: 29px;
+}
+
+.do-img-prt:nth-child(3) {
+    margin-right: 0;
+}
+
+.do-img-prt img {
+    /* width: 90%; */
+}
+
+/* what-we-do setup end */
+
+/* attorneys setup start */
+.attorneys {
+    padding: 200px 0 220px;
+    background-color: #28377E;
+    background-image: url(img/ATTORNEYS-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-size: cover;
+}
+
+.attorneys-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.attorneys-txt {
+    flex-basis: 31.2%;
+    margin-right: 29px;
+}
+
+.attorneys-txt hr {
+    width: 15%;
+    border-top: none;
+    border-bottom: 3px solid #F2622C;
+    margin-top: 115px;
+}
+
+.attorneys-txt h2 {
+    color: #fff;
+    padding: 20px 0;
+    width: 80%;
+    font-weight: bold;
+}
+
+.attorneys-txt p {
+    color: #929dcf;
+    font-size: 14px;
+    line-height: 21px;
+    width: 90%;
+}
+
+.attorneys-txt a {
+    color: #f2622c;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.attorneys-img1 {
+    flex-basis: 31.2%;
+    height: 450px;
+    background-image: url(img/ATTORNEYS-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 29px;
+}
+
+.attorneys-img2 {
+    flex-basis: 31.2%;
+    height: 450px;
+    background-image: url(img/ATTORNEYS-2.jpg);
+    margin-right: 0;
+}
+
+.attorneys-img1 p,
+.attorneys-img2 p,
+.attorneys-img3 p,
+.attorneys-img4 p {
+    font-size: 24px;
+    color: #FFF;
+    margin-top: 100%;
+    width: 55%;
+    padding-left: 40px;
+}
+
+.attorneys-area-two {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+.attorneys-img3 {
+    flex-basis: 31.2%;
+    height: 450px;
+    background-image: url(img/ATTORNEYS-3.jpg);
+    background-size: cover;
+    margin-right: 29px;
+}
+
+.attorneys-img4 {
+    flex-basis: 31.2%;
+    height: 450px;
+    background-image: url(img/ATTORNEYS-4.jpg);
+    background-repeat: no-repeat;
+    margin-right: 0;
+}
+
+/* attorneys setup end */
+
+/* Languages setup start */
+.language {
+    padding: 125px 0 150px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.language hr {
+    width: 5%;
+    margin: auto;
+    border-top: none;
+    border-bottom: 3px solid #F2622C;
+}
+
+.language .mid > h2 {
+    color: #2b2f85;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.language-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.language-area-prt h3 {
+    color: #28377e;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+}
+
+.language-area-prt {
+    flex-basis: 25%;
+}
+
+.language-area-prt p {
+    padding-top: 20px;
+    width: 90%;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.language-area-prt a {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #f2622c;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+
+/* Languages setup end */
+
+/* contact setup start */
+.contact {
+    background: #28377E;
+    padding: 80px 0 120px;
+}
+
+.contact-area {}
+
+.contact-area hr {
+    width: 5%;
+    margin: auto;
+    border-top: none;
+    border-bottom: 3px solid #F2622C;
+}
+
+.contact-area h2 {
+    color: #FFF;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact-form form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact-form form input[type=text] {
+    border: none;
+    background: transparent;
+
+}
+
+.contact-form form label {
+    padding-top: 60px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
+
+.contact-hr hr {
+    width: 100%;
+    padding-top: 15px;
+    margin: auto;
+    border: none;
+    border-bottom: 1px solid #4759A7;
+}
+
+.contact-button {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.contact-button a {
+    color: #FFF;
+    background: #F2622C;
+    padding: 15px 85px;
+    display: inline-block;
+}
+
+
+/* contact setup end */
+
+/* footer setup Start */
+
+
+
+/* footer setup end */
+.footer {
+    background: #0C1234;
+    padding: 50px 0;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-txt {
+    flex-basis: 50%;
+}
+
+.footer-txt p {
+    color: #616ca8;
+    font-size: 14px;
+}
+
+.footer-icon {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-icon ul {}
+
+.footer-icon ul li {
+    display: inline-block;
+}
+
+.footer-icon ul li a {
+    margin-left: 20px;
+}
+
+.footer-icon ul li a img {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
